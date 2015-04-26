@@ -3,39 +3,45 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1 class="text-center">
+            <asp:Image ID="Image1" ImageUrl="HardStoneLogo.png" runat="server" />
+        &nbsp;<span style="font-size: 60px">Experience the Music</span></h1>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>Upcoming Events</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+               <%-- ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
+            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.--%>
+                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Calender &raquo;</a><ajaxToolkit:Seadragon ID="Seadragon1" SourceUrl="nin/dzc_output.xml" Width="1165px" Height="500px" runat="server">
+            </ajaxToolkit:Seadragon>
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                &nbsp;</p>
+        </div>
+        <div class="col-md-4">
+            <h2 class="text-center">Venues</h2>
+            <p class="text-center">
+                <%--NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.--%>
+            </p>
+            <p class="text-center">
+                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Map &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+            <h2 class="text-right">Members</h2>
+            <p class="text-right">
+                <%--You can easily find a web hosting company that offers the right mix of features and price for your applications.--%>
+            </p>
+            <p class="text-right">
+                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Manage &raquo;</a>
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
+                &nbsp;</p>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
             </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
+            
         </div>
     </div>
 
