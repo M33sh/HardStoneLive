@@ -14,7 +14,7 @@
             <p>
                <%-- ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
             A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.--%>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Calender &raquo;</a><ajaxToolkit:Seadragon ID="Seadragon1" SourceUrl="nin/dzc_output.xml" Width="1165px" Height="500px" runat="server">
+                <a class="btn btn-default" href="http://hardstonelive.azurewebsites.net/pages/eventsgv">Calender &raquo;</a><ajaxToolkit:Seadragon ID="Seadragon1" SourceUrl="nin/dzc_output.xml" Width="1165px" Height="500px" runat="server">
             </ajaxToolkit:Seadragon>
             </p>
             <p>
@@ -26,7 +26,7 @@
                 <%--NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.--%>
             </p>
             <p class="text-center">
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Map &raquo;</a>
+                <a class="btn btn-default" href="http://hardstonelive.azurewebsites.net/venues/listings">Map &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -35,7 +35,7 @@
                 <%--You can easily find a web hosting company that offers the right mix of features and price for your applications.--%>
             </p>
             <p class="text-right">
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Manage &raquo;</a>
+                <a class="btn btn-default" href="http://hardstonelive.azurewebsites.net/Account/Login">Manage &raquo;</a>
             </p>
             <p>
                 &nbsp;</p>

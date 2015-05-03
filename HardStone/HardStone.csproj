@@ -197,10 +197,12 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Admin\AdminPage.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme-robo.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\modalStyle2.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
@@ -208,10 +210,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="Admin\Web.config" />
     <None Include="Properties\PublishProfiles\HardStoneLive.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Pages\addmodol.aspx" />
+    <Content Include="Pages\attempt.aspx" />
+    <Content Include="Pages\Events.aspx" />
     <Content Include="Pages\EventsGV.aspx" />
     <Content Include="Pages\hjg1.aspx" />
+    <Content Include="Pages\modol.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -245,6 +252,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="UserControls\ConfirmBox.ascx" />
+    <Content Include="Venues\Listings.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -366,6 +375,13 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Code\Events.cs" />
     <Compile Include="App_Code\XmlPropertyObject.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -397,6 +413,27 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pages\addmodol.aspx.cs">
+      <DependentUpon>addmodol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\addmodol.aspx.designer.cs">
+      <DependentUpon>addmodol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\attempt.aspx.cs">
+      <DependentUpon>attempt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\attempt.aspx.designer.cs">
+      <DependentUpon>attempt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EventsGV.aspx.cs">
       <DependentUpon>EventsGV.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -411,6 +448,14 @@
     <Compile Include="Pages\hjg1.aspx.designer.cs">
       <DependentUpon>hjg1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\modol.aspx.cs">
+      <DependentUpon>modol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\modol.aspx.designer.cs">
+      <DependentUpon>modol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RoleActions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -427,6 +472,20 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UserControls\ConfirmBox.ascx.cs">
+      <DependentUpon>ConfirmBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConfirmBox.ascx.designer.cs">
+      <DependentUpon>ConfirmBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Venues\Listings.aspx.cs">
+      <DependentUpon>Listings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Venues\Listings.aspx.designer.cs">
+      <DependentUpon>Listings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

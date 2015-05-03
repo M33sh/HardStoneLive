@@ -1,0 +1,54 @@
+﻿.modalPopup
+{
+    background: White url(titleimg.jpg) repeat-x;        
+    border: solid 4px red;    
+    color: black;
+    padding: 3px;
+    width: 250px; 
+}
+
+.modalPopup h5
+{
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;    
+    padding: 2px;
+    margin: 0px 0px 8px 0px;
+    float:left;    
+}
+
+.modalPopup div.closeButton
+{   
+    margin: 0px 3px 8px 0px;
+    float:right;
+}
+
+.modalPopup div.closeButton a
+{
+    color: White;
+    font-size: 14pt;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.modalBackground
+{        
+    background-color: Gray;    
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+     
+}
+
+.modalMessage
+{
+    padding: 35px 10px 5px 10px;
+    
+}
+
+.modalButtons
+{
+    text-align: right;
+    padding: 0px 7px 7px 0px;
+}
+
